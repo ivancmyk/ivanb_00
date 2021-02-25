@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>IVAN BARBA</title>
+</head>
+<body>
+    <section>
+        <div class="contenido">
+            <div>
+                <h2>Iván Barba</h2>
+
+                <p> ¡Hola! Soy un diseñador al que le encanta conceptualizar,<br>
+                    proponer y resolver diversas estrategias de comunicación <br>
+                    en distintas plataformas. Te cuento un poco de mi <br>
+                    formación y experiencia profesional.</p>
+                    <br>
+                   <p>"Siempre será divertido encontrar distintas<br> 
+                       soluciones a un mismo problema."</p>
+
+                  <a href="#">Acerca de</a>  
+            </div>
+        </div>
+            <div class="imgBx">
+                <img src="img/ivan_barba.png" alt="Cristi">
+            </div>
+            <ul class="nav" id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">Sobre</a></li>
+                <li><a href="#">Perfil</a></li>
+                <li><a href="#">Book</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <ul class="sci">
+                <li><a href="#">linkedin</a></li>
+                <li><a href="#">Vimeo</a></li>
+                <li><a href="#">behance</a></li>
+            </ul>
+    </section> 
+    <span class="menu-responsivo" id="toggle" onclick="menuToggle"></span>
+    <script type="text/javascript">
+    function menuToggle(){
+        var nav = document.getElementsById("nav");
+        nav.classList.toggle("active")
+
+        var toggle = document.getElementsById("toggle");
+        toggle.classList.toggle("active")
+
+    }
+    </script>
+</body>
+</html>
