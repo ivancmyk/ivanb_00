@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link rel="stylesheet" href="styles.css">
     <title>IVAN BARBA</title>
 </head>
@@ -41,13 +40,14 @@
                 <li><a href="#">behance</a></li>
             </ul>
     </section> 
-    <span class="menu-responsivo" id="toggle" onclick="menuToggle"></span>
+
+    <span class="menu" id="toggle" onclick="menuToggle()"></span>
     <script type="text/javascript">
     function menuToggle(){
-        var nav = document.getElementsById("nav");
+        var nav = document.getElementById("nav");
         nav.classList.toggle("active")
 
-        var toggle = document.getElementsById("toggle");
+        var toggle = document.getElementById("toggle");
         toggle.classList.toggle("active")
 
     }
