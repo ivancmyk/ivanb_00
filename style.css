@@ -376,3 +376,13 @@ color:#07BBC1;
 	}
   }
   
+
+
+  @media screen and (max-width: 768px){
+	
+	.imgBx img {
+		max-width: 300px;
+		
+	}
+}
+
